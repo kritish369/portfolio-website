@@ -1,0 +1,370 @@
+/* =======================
+GENERAL
+======================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(237, 242, 237);
+}
+
+section p {
+    color: #36cc77;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/* =======================
+NAVBAR
+======================= */
+
+.navbar {
+    padding: 18px 0;
+    background-color: rgb(208, 16, 16);
+}
+
+section {
+    padding: 80px 0;
+}
+
+.logo {
+    color: #198754;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: #198754;
+}
+
+/* =======================
+HERO
+======================= */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Greeting */
+
+.greeting {
+    color: #198754;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+/* Main heading */
+
+.hero h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* Profession */
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+
+.hero p {
+    color: #198754;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+/* Button */
+
+.btn-custom {
+
+    background: #198754;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-custom:hover {
+
+    background: #146c43;
+    color: rgb(12, 240, 138);
+}
+
+/* Image */
+
+.hero-image {
+
+    width: 500px;
+    border-radius: 500px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, .15);
+}
+
+.profile-card {
+    display: inline-block;
+
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 30px 70px rgba(22, 18, 18, 0.45);
+    transition: .4s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, .18);
+}
+
+.profile-img {
+    width: 420px;
+    max-width: 100%;
+    border-radius: 20px;
+
+    display: block;
+}
+
+.About-line {
+    color: rgb(12, 240, 138);
+}
+
+.hero-2 {
+    background-color: black;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.skills-section {
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.heading h1 {
+    font-size: 60px;
+}
+
+.last {
+    color: red;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.card-item {
+    background: white;
+    border-radius: 50px;
+    padding: 40px;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+
+}
+
+.card-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.fa-brands {
+    font-size: 50px;
+
+
+}
+
+.django-logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #0C4B33;
+    /* Official Django green */
+    letter-spacing: -2px;
+    line-height: 1;
+    text-transform: lowercase;
+}
+
+.mysql-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my {
+    color: #00758F;
+}
+
+.sql {
+    color: #F29111;
+}
+
+.mysql-dolphin {
+    width: 70px;
+    height: 50px;
+
+    fill: none;
+    stroke: #00758F;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.section-con {
+    width: 100%;
+}
+
+.heading h6 {
+    color: #4CAF7D;
+    /* the green accent color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.heading h1 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.top-part {
+    padding: 60px;
+
+
+    /* the card-like border in the reference */
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 60px;
+    /* this is what pushes the bottom part down, separating them */
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+    padding: 60px;
+}
+
+.container-con {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 80px;
+    gap: 60px;
+
+}
+
+
+
+
+.bottom-left {
+    flex: 1;
+    max-width: 400px;
+
+
+}
+
+.botton-left-p {
+    color: black;
+    text-autospace: 2px;
+}
+
+.bottom-right {
+    flex: 1;
+    max-width: 450px;
+    border: 3px solid #ddd;
+    background-color: white;
+    border-radius: 25px;
+
+    text-align: center;
+    height: 380px;
+    box-shadow: #150101;
+}
+
+.bottom-right-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.bottom-right input {
+    height: 40px;
+    border-radius: 8px;
+}
+
+.bottom-right textarea {
+    height: 100px;
+    resize: none;
+    border-radius: 8px;
+
+}
+
+
+.bottom-right button {
+    background: #4CAF7D;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.bottom-right-h3 {
+    font-weight: 600;
+
+}
+
+.bottom-right button:hover {
+    background: #3d9c68;
+}
+
+.projects {
+    width: 200px;
+    height: 250px;
+    border: black;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.projects:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+
+}
